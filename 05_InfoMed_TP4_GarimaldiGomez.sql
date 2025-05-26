@@ -12,9 +12,5 @@ SET ciudad = 'Córdoba'
 WHERE LOWER(ciudad) IN ('cordoba', 'cordóva', 'córodba', 'córdoba');
 
 UPDATE Pacientes
-SET ciudad = 'Córdoba'
-WHERE LOWER(ciudad) IN ('cordoba', 'cordóva', 'córodba', 'córdoba');
-
-UPDATE Pacientes
 SET ciudad = 'Mendoza'
 WHERE LOWER(ciudad) IN ('mendoza', 'mendzoa');
